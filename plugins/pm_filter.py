@@ -1,10 +1,10 @@
-# Credit @harshil8981.
+# Credit @R_KOHLI.
 # Please Don't remove credit.
-# Born to make history @harshil8981 !
+# Born to make history @R_KOHLI !
 # Thank you MrkillerDeveloper for helping us in this Journey
-# 🥰  Thank you for giving me credit @harshil898q  🥰
-# for any error please contact me -> telegram@Mrkiller_1109 or insta @Mrking_motivational 
-# rip paid developers 🤣 - >> No need to buy paid source code while @Mrkiller_1109 here 😍😍
+# 🥰  Thank you for giving me credit @R_KOHLI  🥰
+# for any error please contact me -> telegram@R_KOHLI or insta @ravikohlidk
+# rip paid developers 🤣 - >> No need to buy paid source code while @R_KOHLI here 😍😍
 
 import asyncio
 import re
@@ -335,7 +335,7 @@ async def next_page(bot, query):
 
     btn.insert(0,
         [ 
-	    InlineKeyboardButton(text="⚡ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ⚡", url='https://t.me/Hpbot_update')
+	    InlineKeyboardButton(text="⚡ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ⚡", url='https://t.me/movie_on1')
         ] 
     )
 
@@ -809,7 +809,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ],[
                 InlineKeyboardButton(text=f"🐞 REPORT BUG 🐞", url=f"https://t.me/R_KOHLI")
             ],[
-                InlineKeyboardButton(text=f"⚡️ Learn Bot Making 🦋", url=f"https://t.me/movie_a1")
+                InlineKeyboardButton(text=f"⚡️ JOIN 🦋", url=f"https://t.me/movie_a1")
 
             ]]
             btn_lzdv = [
@@ -837,7 +837,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ],[
                 InlineKeyboardButton(text=f"🐞 REPORT BUG 🐞", url=f"https://t.me/R_KOHLI")
             ],[
-                InlineKeyboardButton(text=f"⚡️ Learn Bot Making 🦋", url=f"https://t.me/movie_a1")
+                InlineKeyboardButton(text=f"⚡️ JOIN 🦋", url=f"https://t.me/movie_a1")
             ]]
             btn_lzdv = [
                 [
@@ -864,7 +864,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ],[
                 InlineKeyboardButton(text=f"🐞 REPORT BUG 🐞", url=f"https://t.me/R_KOHLI")
             ],[
-                InlineKeyboardButton(text=f"⚡️ Learn Bot Making 🦋", url=f"https://t.me/movie_a1")
+                InlineKeyboardButton(text=f"⚡️ JOIN 🦋", url=f"https://t.me/movie_a1")
 
             ]]
             btn_lzdv = [
@@ -892,7 +892,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ],[
                 InlineKeyboardButton(text=f"🐞 REPORT BUG 🐞", url=f"https://t.me/R_KOHLI")
             ],[
-                InlineKeyboardButton(text=f"⚡️ Learn Bot Making 🦋", url=f"https://t.me/movie_a1")
+                InlineKeyboardButton(text=f"⚡️ JOIN 🦋", url=f"https://t.me/movie_a1")
             ]]
             btn_lzdv = [
                 [
@@ -919,7 +919,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ],[
                 InlineKeyboardButton(text=f"🐞 REPORT BUG 🐞", url=f"https://t.me/R_KOHLI")
             ],[
-                InlineKeyboardButton(text=f"⚡️ Learn Bot Making 🦋", url=f"https://t.me/movie_a1")
+                InlineKeyboardButton(text=f"⚡️ JOIN 🦋", url=f"https://t.me/movie_a1")
 
             ]]
             btn_lzdv = [
@@ -947,7 +947,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ],[
                 InlineKeyboardButton(text=f"🐞 REPORT BUG 🐞", url=f"https://t.me/R_KOHLI")
             ],[
-                InlineKeyboardButton(text=f"⚡️ Learn Bot Making 🦋", url=f"https://t.me/movie_a1")
+                InlineKeyboardButton(text=f"⚡️ JOIN 🦋", url=f"https://t.me/movie_a1")
             ]]
             btn_lzdv = [
                 [
@@ -974,7 +974,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ],[
                 InlineKeyboardButton(text=f"🐞 REPORT BUG 🐞", url=f"https://t.me/HP_Bot_discuss_group")
             ],[
-                InlineKeyboardButton(text=f"⚡️ Learn Bot Making 🦋", url=f"https://youtube.com/@TechnicalHPgamer")
+                InlineKeyboardButton(text=f"⚡️ JOIN 🦋", url=f"https://youtube.com/@TechnicalHPgamer")
 
             ]]
             btn_lzdv = [
@@ -1281,7 +1281,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ]
             reply_markup = InlineKeyboardMarkup(buttons)
             await query.message.edit_reply_markup(reply_markup)
-    await query.answer('♥️ Thank You MrkillerDeveloper ♥️')
+    await query.answer('♥️ Thank You @R_KOHLI ♥️')
 
 async def auto_filter(client, msg, spoll=False):
     if not spoll:
@@ -1483,7 +1483,7 @@ async def auto_filter(client, msg, spoll=False):
             [InlineKeyboardButton(text="🗓 1/1", callback_data="pages")]
         )
 
-    #waiting user to complete imdb process @Mrkiller_1109
+    #waiting user to complete imdb process @@R_KOHLI
     user = message.from_user
     full_name = user.first_name + " " + user.last_name if user.last_name else user.first_name
     waiting_message = await message.reply_text(f"Setting up your request {full_name}...")
