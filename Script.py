@@ -113,10 +113,12 @@ This module only works for my admins
 Group = {}(<code>{}</code>)
 Total Members = <code>{}</code>
 Added By - {}
+DK
 """
     LOG_TEXT_P = """#NewUser
 ID - <code>{}</code>
 Name - {}
+DK
 """
     PROGRESS_BAR = """\n
 ╭━━━━❰ PROGRESS BAR ❱━➣
